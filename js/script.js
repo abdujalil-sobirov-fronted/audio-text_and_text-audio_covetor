@@ -72,7 +72,7 @@ function speechToText() {
   }
 }
 
-recordBtn.addEventListener("click",() => {
+recordBtn.addEventListener("click", () => {
   if (!recording) {
     speechToText();
     recording = true;
@@ -104,12 +104,9 @@ function download() {
   document.body.removeChild(element);
 }
 
-downloadBtn.addEventListener("click",() => {
+downloadBtn.addEventListener("click", download);
+
+clearBtn.addEventListener("click", () => {
   result.innerHTML = "";
   downloadBtn.disabled = true;
 });
-
-const btn_down = document.getElementById("btn_down");
-btn_down.addEventListener("click",() => {
-  
-})
