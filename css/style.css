@@ -115,3 +115,9 @@ body {
   display: flex;
   gap: 20px;
 }
+
+a {
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+}
