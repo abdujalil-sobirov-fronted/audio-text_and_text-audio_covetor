@@ -118,6 +118,9 @@ body {
 
 a {
   text-decoration: none;
+  padding: 15px 5px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   position: absolute;
-  top: 95%;
+  top: 100%;
 }
